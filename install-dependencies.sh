@@ -11,7 +11,9 @@ cp -rn venv/lib/python3.10/site-packages/* episode-7/
 cp -rn venv/lib/python3.10/site-packages/* episode-8/
 cp -rn venv/lib/python3.10/site-packages/* episode-9/
 cp -rn venv/lib/python3.10/site-packages/* episode-10/
-python3 -m pip install --upgrade pip pyglet base36 nbtlib
+python3 -m pip install --upgrade base36 nbtlib
 cp -rn venv/lib/python3.10/site-packages/* episode-11/
 cp -rn venv/lib/python3.10/site-packages/* episode-12/
+python3 -m pip install --upgrade pyglm
+cp -rn venv/lib/python3.10/site-packages/* community/
 deactivate
