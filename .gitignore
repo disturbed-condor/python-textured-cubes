@@ -1,5 +1,10 @@
 **/pyglet/
-# episode-1 pip packages above
+# episode 1 to episode 10 pip packages above
+**/base36.py
+**/nbtlib/
+**/numpy/
+**/numpy.libs/
+# packages for episode 11
 *.pyc
 *.core
 *.log
