@@ -1,3 +1,5 @@
+note: In this fork i did not get episode 13 to work properly.
+
 # MCPY
 
 Source code for each episode of my Minecraft clone in Python YouTube tutorial series.
