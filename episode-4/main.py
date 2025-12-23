@@ -11,27 +11,15 @@ import shader
 import matrix  # import matrix.py file
 
 vertex_positions = [  # set the Z component to 0.0 so that our object is centered
-	-0.5,
-	0.5,
-	0.0,
-	-0.5,
-	-0.5,
-	0.0,
-	0.5,
-	-0.5,
-	0.0,
-	0.5,
-	0.5,
-	0.0,
+	-0.5,	0.5,	0.0,
+	-0.5,	-0.5,	0.0,
+	0.5,	-0.5,	0.0,
+	0.5,	0.5,	0.0,
 ]
 
 indices = [
-	0,
-	1,
-	2,  # first triangle
-	0,
-	2,
-	3,  # second triangle
+	0,	1,	2,  # first triangle
+	0,	2,	3,  # second triangle
 ]
 
 
