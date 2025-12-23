@@ -1,3 +1,5 @@
+**/pyglet/
+# episode-1 pip packages above
 *.pyc
 *.core
 *.log
@@ -13,5 +15,12 @@ dist
 build
 *.egg-info
 *.prof
+# pip packages and pycache below
 **/__pycache__/
 **/venv/
+**/_distutils_hack/
+**/distutils-precedence.pth
+**/*dist-info/
+**/pip/
+**/setuptools/
+**/pkg_resources/
