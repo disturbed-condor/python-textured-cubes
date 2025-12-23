@@ -9,27 +9,15 @@ import pyglet.gl as gl
 import shader
 
 vertex_positions = [  # 3d coordinates for each vertex
-	-0.5,
-	0.5,
-	1.0,
-	-0.5,
-	-0.5,
-	1.0,
-	0.5,
-	-0.5,
-	1.0,
-	0.5,
-	0.5,
-	1.0,
+	-0.5,	0.5,	1.0,
+	-0.5,	-0.5,	1.0,
+	0.5,	-0.5,	1.0,
+	0.5,	0.5,	1.0,
 ]
 
 indices = [
-	0,
-	1,
-	2,  # first triangle
-	0,
-	2,
-	3,  # second triangle
+	0,	1,	2,  # first triangle
+	0,	2,	3,  # second triangle
 ]
 
 
