@@ -4,7 +4,10 @@
 **/nbtlib/
 **/numpy/
 **/numpy.libs/
-# packages for episode 11
+# packages for episodes 11 and 12
+**/pyglm/
+**/pyglm-stubs/
+# packages for community edition
 *.pyc
 *.core
 *.log
